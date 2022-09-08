@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <section id="corpo">
+        <section id="style">
+            <header><h1>Calculadora Simples</h1></header>
+            <section id="tela">
+                <div id="op">
+                    0
+                </div>
+
+                <div id="re">0</div>
+
+                <div id="guard">
+                    0
+                </div>
+            </section>
+        </section>
+
+        <div>
+            <input id="on" type="button" value="ON/OFF" onclick="off()"> </br>
+            <input class="num" id="7" type="button" value="7" onclick="adicionar(7)"> 
+            <input class="num" id="8" type="button" value="8" onclick="adicionar(8)">
+            <input class="num" id="9" type="button" value="9" onclick="adicionar(9)">
+            <input class="fun" type="button" value="CE" style="background-color: green;" onclick="centry()">
+            <input class="fun" type="button" value="C" style="background-color: red;" onclick="clean()"> </br>
+            <input class="num" id="4" type="button" value="4" onclick="adicionar(4)">
+            <input class="num" id="5" type="button" value="5" onclick="adicionar(5)">
+            <input class="num" id="6" type="button" value="6" onclick="adicionar(6)"> 
+            <input class="fun" type="button" value="/" onclick="divisao()">
+            <input class="fun" type="button" value="X" onclick="multiplicacao()"> </br>
+            <input class="num" id="1" type="button" value="1" onclick="adicionar(1)">
+            <input class="num" id="2" type="button" value="2" onclick="adicionar(2)">
+            <input class="num" id="3" type="button" value="3" onclick="adicionar(3)">
+            <input class="fun" type="button" value="-" onclick="subtracao()"> 
+            <input id="mais" type="button" value="+" style="background-color: yellow;" onclick="adicao()">
+            <input class="zero" type="button" value="0" onclick="adicionar(0)">
+            <input class="ponto" type="button" value="." onclick="adicionar('.')">
+            <input class="fun" type="button" value="=" style="background-color: blue;" onclick="igual()">
+            
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

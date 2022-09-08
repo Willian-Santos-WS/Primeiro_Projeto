@@ -1,0 +1,133 @@
+section#corpo {
+    background-color: rgb(171, 189, 186);
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 537px;
+    height: 650px;
+    box-shadow: 3px 2px 14px rgb(1, 21, 61);
+    margin: auto;
+    padding: 10px;
+}
+
+section#style {
+    background-color: black;
+    margin: 10px 15px 5px 15px;
+    height: 150px;
+    box-shadow: 0px 0px 7px;
+    border-radius: 5px;
+    padding: 2px 7px 3px 7px;
+}
+
+header {
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    border: 1px ridge black;
+    text-align: center;
+    padding-top: 3px;
+}
+
+header h1{ 
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 4px;
+}
+
+section#tela {
+    background-color:rgb(11, 11, 90);
+    width: auto;
+    height: 100px;
+    padding: 5px;
+    transition-duration: .4s;
+    border-radius: 2px;
+}
+
+div#re {
+    text-align: right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40pt;
+    color: rgb(11, 11, 90);
+    margin: 0px 0px 10px 0px;
+}
+
+div#op {
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35pt;
+    color: rgb(11, 11, 90);
+}
+
+div#guard {
+    text-align: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    color: rgb(11, 11, 90);
+}
+
+input#on {
+    background-color: red;
+    color: white;
+    border: 3px solid red;
+    box-shadow: 0px 0px 8px black;
+    margin: 20px 10px 20px 40px;
+}
+
+input.num {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    font-size: 30pt;
+    font-style: numeric;
+    color: rgb(4, 4, 118);
+}
+
+input.fun {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    width: 80px;
+    height: 80px;
+    margin: 10px -10px 10px 30px;
+    font-size: 30pt;
+    font-style: numeric;
+    color: rgb(4, 4, 118);
+}
+
+input.zero {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    width: 184px;
+    height: 80px;
+    margin: 10px;
+    font-size: 30pt;
+    font-style: numeric;
+    color: rgb(4, 4, 118);
+}
+
+input.ponto {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    font-size: 30pt;
+    font-style: numeric;
+    color: rgb(4, 4, 118);
+}
+
+input#mais {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    width: 80px;
+    height: 180px;
+    margin: 10px -10px 10px 30px;
+    font-size: 30pt;
+    font-style: numeric;
+    color: rgb(4, 4, 118);
+    position: absolute;
+}
